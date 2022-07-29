@@ -23,7 +23,7 @@ HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/bc0cbf95ece5564dbcaa9.j
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Dam alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
-BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", "-1001748391597")
+BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001748391597, -1001473548283, -1001687155877]
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
