@@ -16,9 +16,9 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **Dam-Ubot Activated.**
+✅ **PyroDam Activated.**
 
-**🏷️ Userbot Version -** `{}`
+**🤖 Userbot Version -** `{}`
 **Ketik** `.dam` **untuk Mengecheck Bot**
 """
 
@@ -30,6 +30,7 @@ async def main():
             bot.me = await bot.get_me()
             await bot.join_chat("killuaroom")
             await bot.join_chat("diarydam")
+            await bot.join_chat("damssyx")
             await bot.join_chat("CilikProject")
             await bot.join_chat("CilikSupport")
             await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER))
