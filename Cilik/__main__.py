@@ -41,10 +41,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Dam").info("Starting Dam-Ubot")
+    LOGGER("Dam").info("Starting PyroDam")
     LOGGER("Dam").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("Dam").info(f"Dam-Ubot v{BOT_VER} ⚙️[🔥 Activated 🔥]")
+    LOGGER("Dam").info(f"PyroDam v{BOT_VER} ⚙️[⚡ Activated ⚡]")
     LOOP.run_until_complete(main())
