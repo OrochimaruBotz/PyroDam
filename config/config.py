@@ -17,10 +17,10 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "✨")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/0a9d95f154f377a9530cc.jpg")
-HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/bc0cbf95ece5564dbcaa9.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Dam alive.")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/2b48ebf6e8db4825a7676.jpg")
+HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/2b48ebf6e8db4825a7676.jpg")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "PyroDam Alive Masseh!.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
