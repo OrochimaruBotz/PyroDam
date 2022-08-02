@@ -1,9 +1,9 @@
-<h1 align="center"> 
-   ✨ Pyro-Dam ✨
-</h1>
+<h2 align="center"> 
+    ⚡ ᴘʏʀᴏᴅᴀᴍ-ᴜʙᴏᴛ ⚡
+</h2>
 
 <p align="center">
-  <a href="#"><img src="https://telegra.ph/file/0a9d95f154f377a9530cc.jpg" width="200" height="200"></a> </br>
+  <a href="#"><img src="https://telegra.ph/file/2b48ebf6e8db4825a7676.jpg" width="220" height="220"></a> </br>
 </p>
 
 ## Deploy With Heroku 💌
@@ -23,6 +23,7 @@
 
 ## 👨🏻‍💻 Credits
 
+-  [ᴘʏʀᴏᴅᴀᴍ](https://githuh.com/damsyx/PyroDam) : PyroDam-Userbot
 -  [PyroMan](https://github.com/mrismanaziz/PyroMan-Userbot) : PyroMan-Userbot
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
 -  [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) : WilliamButcherBot
