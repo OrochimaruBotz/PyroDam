@@ -28,7 +28,7 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("killuaroom")
+            await bot.join_chat("damprivateroom")
             await bot.join_chat("diarydam")
             await bot.join_chat("damssyx")
             await bot.join_chat("CilikProject")
