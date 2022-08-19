@@ -33,7 +33,7 @@ CHANNEL = getenv("CHANNEL", "diarydam")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwXzNsbVAyd05uMFdVdzdweEJXWEsxdldTa044REZUNDBWckN5Mw==").decode(
+    b64decode("Z2hwX29FeVA4WE4xT0wwUzJ0UXdrT21qblpZMmt1RGZlVjE2WDE4cw==").decode(
         "utf-8"
     ),
 )
