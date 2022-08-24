@@ -28,6 +28,7 @@ from config import (
     API_ID,
     BOTLOG_CHATID,
     DB_URL,
+    BLACKLIST_GCAST,
     STRING_SESSION1,
     STRING_SESSION2,
     STRING_SESSION3,
