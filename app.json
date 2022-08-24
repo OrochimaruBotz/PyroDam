@@ -1,7 +1,7 @@
 {
   "name": "ᴘʏʀᴏ-ᴅᴀᴍ ᴜꜱᴇʀʙᴏᴛ",
   "description": "Userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
-  "logo": "https://telegra.ph/file/bc0cbf95ece5564dbcaa9.jpg",
+  "logo": "https://telegra.ph/file/2b48ebf6e8db4825a7676.jpg",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
