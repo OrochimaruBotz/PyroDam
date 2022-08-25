@@ -16,10 +16,10 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **PyroDam Activated.**
+✅ **GojoUbot Activated.**
 
 **🤖 Userbot Version -** `{}`
-**Ketik** `.dam` **untuk Mengecheck Bot**
+**Ketik** `.gojo` **untuk Mengecheck Bot**
 """
 
 
@@ -46,5 +46,5 @@ if __name__ == "__main__":
     install()
     git()
     heroku()
-    LOGGER("Dam").info(f"PyroDam v{BOT_VER} ⚙️[⚡ Activated ⚡]")
+    LOGGER("Dam").info(f"GojoUbot v{BOT_VER} ⚙️[⚡ Activated ⚡]")
     LOOP.run_until_complete(main())
